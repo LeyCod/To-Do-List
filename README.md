@@ -12,3 +12,4 @@ Create an `index.html` file with the [basic HTML structure](http://content.breat
 
 ```sh
 $ pip3 install flask && python3 server.py
+```

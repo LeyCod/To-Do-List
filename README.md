@@ -1,4 +1,4 @@
-# [![4Geeks Logo](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo")](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo") To do list - Js exercise.
+# [![4Geeks Logo](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo")](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo") To Do List - Js exercise.
 
 ## To-Dos:
 

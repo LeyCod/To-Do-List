@@ -5,11 +5,15 @@ const clickResult = (event) => {
     event.preventDefault();
     const inputText = document.querySelector("#inputText");
     const todoData = {
-        todoText: inputText.value
+        todo: inputText.value
     };
-
-    todoList.push(todoData);
-    displayTodo();
+    if (todoData.todo === "") {
+        return alert("Add a Todo");
+    } else {
+        todoList.push(todoData);
+        displayTodo();
+    }
+  
 }
 
 addBtn.addEventListener ('click', clickResult);
@@ -18,6 +22,6 @@ const displayTodo = () => {
     const toDoContainer = document.querySelector("#toDoContainer");
     let strDisplay = "";
     const strContainer = `<ul>${strDisplay}</ul>`;
-    todoList.map((inputText) => strDisplay = strDisplay + `<li>${inputText.inputText}</li>`) 
+    todoList.forEach((todo) => strDisplay += `<li>${todo.todo}</li>`);
     toDoContainer.innerHTML = strContainer;
 }

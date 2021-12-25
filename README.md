@@ -1,15 +1,34 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+# [![4Geeks Logo](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo")](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16 "4Geeks Logo") To Do List - Js exercise.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
+## To-Dos:
 
-The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
+### Create a TODO list application that allows users to add and delete tasks.
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
+The delete icon shows on the side of every task.
+The user can add as many tasks as needed.
+When there is no tasks the list should "No tasks, add a task"
+There is no way to update a task, the user will have to delete and create again.
 
-## What to do next?
+### Fundamentals
+This exercise covers the following fundamentals:
+1. HTML structure. 
+2. CSS styles.  
+3. Javascript logic. 
+4. DOM. 
+5. Events. 
 
-Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## How can i preview the project?
+
+Use the following command to preview the project:
 
 ```sh
 $ pip3 install flask && python3 server.py
 ```
+
+------------
+
+### About Me:
+
+Github: [LeyCod](http://https://github.com/LeyCod "LeyCod") 
+<br>
+Linkedin: [Emmanuel L. Guacache R.](http://https://www.linkedin.com/in/emmanuelleyan/ "Emmanuel Leyan Guacache Rodriguez")

@@ -1,27 +1,17 @@
-const addBtn = document.querySelector("#addBtn");
-let todoList = [];
+const addBtn = document.querySelector('#addBtn');
+const dltBtn = document.querySelector('#dltBtn');
 
-const clickResult = (event) => {
+const handlerClick = (event) => {
     event.preventDefault();
-    const inputText = document.querySelector("#inputText");
-    const todoData = {
-        todo: inputText.value
-    };
-    if (todoData.todo === "") {
-        return alert("Add a Todo");
+    let tasks = document.querySelector('#tasks-container');
+    const newTask = document.querySelector('#new-task');
+    if (newTask.value == 0) {
+        alert("Please add a new task.");
     } else {
-        todoList.push(todoData);
-        displayTodo();
+    tasks.innerHTML += `<ul class="task">
+    <li id="taskText">${newTask.value} </li>
+    </ul>`;
     }
-  
 }
 
-addBtn.addEventListener ('click', clickResult);
-
-const displayTodo = () => {
-    const toDoContainer = document.querySelector("#toDoContainer");
-    let strDisplay = "";
-    const strContainer = `<ul>${strDisplay}</ul>`;
-    todoList.forEach((todo) => strDisplay += `<li>${todo.todo}</li>`);
-    toDoContainer.innerHTML = strContainer;
-}
+addBtn.addEventListener('click', handlerClick);

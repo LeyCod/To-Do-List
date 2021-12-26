@@ -1,0 +1,16 @@
+.mainBackground {
+    margin: 0 auto;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+}
+#tasks-container {
+    background-color: white;
+    margin: 5px 0;
+}
+ul {
+    list-style: none;
+}
+
+li button {
+    margin-left: 25px ;
+}
